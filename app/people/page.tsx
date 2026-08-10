@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { PageHeader } from "../components/PageHeader";
 import { applyUrl, members } from "../site-data";
 
@@ -12,14 +13,16 @@ export default function PeoplePage() {
         <div className="site-width">
           <h2 className="subsection-title">Principal Investigator</h2>
           <article className="pi-profile">
-            <div className="pi-avatar" aria-hidden="true">YS</div>
+            <div className="pi-avatar">
+              <Image src="/young-sik-shin.jpg" alt="Young-Sik Shin" width={354} height={472} priority />
+            </div>
             <div className="pi-main">
               <p className="overline">ASSISTANT PROFESSOR · PH.D.</p>
               <h2>Young-Sik Shin <span>신영식</span></h2>
               <p>School of Mechanical Engineering, College of Engineering<br />Kyungpook National University</p>
               <dl>
                 <div><dt>Email</dt><dd><a href="mailto:yshin86@knu.ac.kr">yshin86@knu.ac.kr</a></dd></div>
-                <div><dt>Office</dt><dd>Engineering Building 3, Room 303</dd></div>
+                <div><dt>Office</dt><dd>Engineering Building 3, Room 303<br /><span lang="ko">공대3호관 303호</span></dd></div>
                 <div><dt>Research</dt><dd>SLAM · Spatial Intelligence · Robotics & Mobility</dd></div>
               </dl>
               <div className="profile-actions">

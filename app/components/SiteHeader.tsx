@@ -13,8 +13,8 @@ const navItems = [
 export function SiteHeader() {
   return (
     <>
-      <div className="university-bar">
-        <div className="site-width university-inner">
+      <div className="university-bar" suppressHydrationWarning>
+        <div className="site-width university-inner" suppressHydrationWarning>
           <a href="https://www.knu.ac.kr" target="_blank" rel="noreferrer">Kyungpook National University</a>
           <a href="https://me.knu.ac.kr" target="_blank" rel="noreferrer">School of Mechanical Engineering</a>
         </div>

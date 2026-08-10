@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { NewsText } from "../components/NewsText";
 import { PageHeader } from "../components/PageHeader";
 import { newsItems } from "../site-data";
 
@@ -14,7 +15,7 @@ export default function NewsPage() {
             <article key={`${item.date}-${item.text}`}>
               <time>{item.date}</time>
               <span>{item.category}</span>
-              <div><h2>{item.text}</h2><p>{item.korean}</p></div>
+              <div><h2><NewsText text={item.text} link={item.link} /></h2><p><NewsText text={item.korean} link={item.link} /></p></div>
             </article>
           ))}
         </div>
