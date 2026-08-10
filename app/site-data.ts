@@ -102,6 +102,7 @@ const uniMapperPublication: Publication = {
     image: "/selected-unimapper.webp",
     imageAlt: "Uni-Mapper multi-modal LiDAR mapping results with dynamic-object removal across four sensor platforms",
     links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/iel8/7274857/7448921/11057931.pdf" },
       { label: "arXiv", url: "https://arxiv.org/abs/2507.20538" },
       { label: "Project", url: "https://sparolab.github.io/research/uni_mapper/" },
       { label: "Video", url: "https://www.youtube.com/watch?v=SK0TU9Vy3Is" },
