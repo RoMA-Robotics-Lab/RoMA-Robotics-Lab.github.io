@@ -66,6 +66,7 @@ const iesmPublication: Publication = {
     image: "/selected-iesm.webp",
     imageAlt: "Overview of Instance-Enriched Semantic Mapping and multi-type expert fusion for visual-language navigation",
     links: [
+      { label: "Paper", url: "https://www.sciencedirect.com/science/article/pii/S0952197626019603" },
       { label: "arXiv", url: "https://arxiv.org/abs/2607.12630" },
       { label: "Project", url: "https://rcilab.github.io/iesm_vln/" },
     ],
