@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { PageHeader } from "../components/PageHeader";
 import { applyUrl, members } from "../site-data";
 
@@ -13,9 +14,9 @@ export default function PeoplePage() {
         <div className="site-width">
           <h2 className="subsection-title">Principal Investigator</h2>
           <article className="pi-profile">
-            <div className="pi-avatar">
+            <Link className="pi-avatar" href="/people/young-sik-shin" aria-label="View Young-Sik Shin's full profile">
               <Image src="/young-sik-shin.jpg" alt="Young-Sik Shin" width={354} height={472} priority />
-            </div>
+            </Link>
             <div className="pi-main">
               <p className="overline">ASSISTANT PROFESSOR · PH.D.</p>
               <h2>Young-Sik Shin <span>신영식</span></h2>
@@ -26,6 +27,7 @@ export default function PeoplePage() {
                 <div><dt>Research</dt><dd>SLAM · Spatial Intelligence · Robotics & Mobility</dd></div>
               </dl>
               <div className="profile-actions">
+                <Link href="/people/young-sik-shin">Full Profile →</Link>
                 <a href="https://scholar.google.com/citations?user=gGfBRawAAAAJ" target="_blank" rel="noreferrer">Google Scholar ↗</a>
                 <a href="https://orcid.org/0000-0002-9653-0633" target="_blank" rel="noreferrer">ORCID ↗</a>
               </div>
