@@ -122,6 +122,7 @@ export const publications: Publication[] = [
     markedAuthors: "D.G. Lee*, T.H. Rhee, H. Jang, Y. Shin, U. Shin, A. Kim†",
     visual: "thermal",
     links: [
+      { label: "Paper", url: "https://openaccess.thecvf.com/content/CVPR2026/html/Lee_TherA_Thermal-Aware_Visual-Language_Prompting_for_Controllable_RGB-to-Thermal_Infrared_Translation_CVPR_2026_paper.html" },
       { label: "arXiv", url: "https://arxiv.org/abs/2602.19430" },
       { label: "Code", url: "https://github.com/donkeymouse/TherA" },
     ],
