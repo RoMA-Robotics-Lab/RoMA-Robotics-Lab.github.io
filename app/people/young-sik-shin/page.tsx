@@ -106,7 +106,7 @@ export default function YoungSikShinProfilePage() {
                   <div>
                     <h3>Ministerial Commendation for Contributions to the Robotics Industry</h3>
                     <p>SLAM and autonomous mobile robots · Ministry of Trade, Industry and Energy</p>
-                    <p lang="ko">로봇산업발전유공 산업통상자원부장관 표창</p>
+                    <p lang="ko">로봇산업발전유공(SLAM, 자율이동로봇) 산업부장관 표창</p>
                   </div>
                 </article>
                 <article className="profile-record-item profile-award-item">
