@@ -83,6 +83,7 @@ const msgLocPublication: Publication = {
     image: "/selected-msg-loc.webp",
     imageAlt: "MSG-Loc semantic graph matching pipeline with qualitative localization results",
     links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/11297765" },
       { label: "arXiv", url: "https://arxiv.org/abs/2512.03522" },
       { label: "Project", url: "https://sparolab.github.io/research/msg-loc/" },
       { label: "Video", url: "https://www.youtube.com/watch?v=Nmz_XxtqOr8" },
