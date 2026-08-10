@@ -212,6 +212,8 @@ h1, h2, h3, p { margin-top: 0; }
 .profile-record-item > p { margin: 2px 0 0; color: var(--blue); font-size: 13px; font-weight: 800; }
 .profile-record-item h3 { margin-bottom: 6px; color: var(--navy); font-size: 17px; }
 .profile-record-item div p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.7; }
+.profile-education-entry { min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 8px; }
+.profile-record-item .profile-education-entry h3 { margin: 0; }
 .profile-award-item div p + p { margin-top: 5px; color: #526a7f; font-size: 13px; word-break: keep-all; }
 .member-section-heading { margin-bottom: 24px; padding-bottom: 13px; display: flex; align-items: center; justify-content: space-between; gap: 20px; border-bottom: 1px solid var(--navy); }
 .member-section-heading .subsection-title { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }

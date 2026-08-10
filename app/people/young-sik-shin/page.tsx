@@ -82,15 +82,15 @@ export default function YoungSikShinProfilePage() {
               <div className="profile-record-list">
                 <article className="profile-record-item">
                   <p>2015.03–2020.02</p>
-                  <div><h3>Ph.D.</h3><p>Robotics Program / Civil and Environmental Engineering, KAIST</p></div>
+                  <div className="profile-education-entry"><h3>Ph.D.</h3><p>Robotics Program / Civil and Environmental Engineering, KAIST</p></div>
                 </article>
                 <article className="profile-record-item">
                   <p>2013.03–2015.02</p>
-                  <div><h3>M.S.</h3><p>Robotics Program, KAIST</p></div>
+                  <div className="profile-education-entry"><h3>M.S.</h3><p>Robotics Program, KAIST</p></div>
                 </article>
                 <article className="profile-record-item">
                   <p>2005.03–2012.02</p>
-                  <div><h3>B.S.</h3><p>Electrical Engineering, Inha University</p></div>
+                  <div className="profile-education-entry"><h3>B.S.</h3><p>Electrical Engineering, Inha University</p></div>
                 </article>
               </div>
             </section>
