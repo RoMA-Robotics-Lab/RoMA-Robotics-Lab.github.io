@@ -52,62 +52,78 @@ export default function YoungSikShinProfilePage() {
 
           <div className="profile-record-grid">
             <section className="profile-record" aria-labelledby="experience-heading">
-              <p className="overline">CAREER</p>
-              <h2 id="experience-heading">Experience</h2>
-              <article className="profile-record-item">
-                <p>2026.03–Present</p>
-                <div>
-                  <h3>Assistant Professor</h3>
-                  <p>School of Mechanical Engineering, College of Engineering<br />Kyungpook National University, Daegu, Republic of Korea</p>
-                </div>
-              </article>
-              <article className="profile-record-item">
-                <p>2019.12–2026.02</p>
-                <div>
-                  <h3>Senior Researcher</h3>
-                  <p>Department of AI Machinery, Research Institute of AI Robotics<br />Korea Institute of Machinery &amp; Materials, Daejeon, Republic of Korea</p>
-                </div>
-              </article>
+              <header className="profile-record-heading">
+                <p className="overline">CAREER</p>
+                <h2 id="experience-heading">Experience</h2>
+              </header>
+              <div className="profile-record-list">
+                <article className="profile-record-item">
+                  <p>2026.03–Present</p>
+                  <div>
+                    <h3>Assistant Professor</h3>
+                    <p>School of Mechanical Engineering, College of Engineering<br />Kyungpook National University, Daegu, Republic of Korea</p>
+                  </div>
+                </article>
+                <article className="profile-record-item">
+                  <p>2019.12–2026.02</p>
+                  <div>
+                    <h3>Senior Researcher</h3>
+                    <p>Department of AI Machinery, Research Institute of AI Robotics<br />Korea Institute of Machinery &amp; Materials, Daejeon, Republic of Korea</p>
+                  </div>
+                </article>
+              </div>
             </section>
 
             <section className="profile-record" aria-labelledby="education-heading">
-              <p className="overline">ACADEMIC BACKGROUND</p>
-              <h2 id="education-heading">Education</h2>
-              <article className="profile-record-item">
-                <p>2015.03–2020.02</p>
-                <div><h3>Ph.D.</h3><p>Robotics Program / Civil and Environmental Engineering, KAIST</p></div>
-              </article>
-              <article className="profile-record-item">
-                <p>2013.03–2015.02</p>
-                <div><h3>M.S.</h3><p>Robotics Program, KAIST</p></div>
-              </article>
-              <article className="profile-record-item">
-                <p>2005.03–2012.02</p>
-                <div><h3>B.S.</h3><p>Electrical Engineering, Inha University</p></div>
-              </article>
+              <header className="profile-record-heading">
+                <p className="overline">ACADEMIC BACKGROUND</p>
+                <h2 id="education-heading">Education</h2>
+              </header>
+              <div className="profile-record-list">
+                <article className="profile-record-item">
+                  <p>2015.03–2020.02</p>
+                  <div><h3>Ph.D.</h3><p>Robotics Program / Civil and Environmental Engineering, KAIST</p></div>
+                </article>
+                <article className="profile-record-item">
+                  <p>2013.03–2015.02</p>
+                  <div><h3>M.S.</h3><p>Robotics Program, KAIST</p></div>
+                </article>
+                <article className="profile-record-item">
+                  <p>2005.03–2012.02</p>
+                  <div><h3>B.S.</h3><p>Electrical Engineering, Inha University</p></div>
+                </article>
+              </div>
             </section>
 
-            <section className="profile-record profile-awards" aria-labelledby="awards-heading">
-              <p className="overline">RECOGNITION</p>
-              <h2 id="awards-heading">Awards</h2>
-              <div className="profile-award-list">
-                <article>
-                  <span>2025</span>
-                  <h3>Ministerial Commendation for Contributions to the Robotics Industry</h3>
-                  <p>SLAM and autonomous mobile robots · Ministry of Trade, Industry and Energy</p>
-                  <p lang="ko">로봇산업발전유공 산업통상자원부장관 표창</p>
+            <section className="profile-record" aria-labelledby="awards-heading">
+              <header className="profile-record-heading">
+                <p className="overline">RECOGNITION</p>
+                <h2 id="awards-heading">Awards</h2>
+              </header>
+              <div className="profile-record-list">
+                <article className="profile-record-item profile-award-item">
+                  <p>2025</p>
+                  <div>
+                    <h3>Ministerial Commendation for Contributions to the Robotics Industry</h3>
+                    <p>SLAM and autonomous mobile robots · Ministry of Trade, Industry and Energy</p>
+                    <p lang="ko">로봇산업발전유공 산업통상자원부장관 표창</p>
+                  </div>
                 </article>
-                <article>
-                  <span>2021</span>
-                  <h3>Top 100 National R&amp;D Achievements</h3>
-                  <p>Minister&apos;s Award · Ministry of Science and ICT</p>
-                  <p lang="ko">국가연구개발 우수성과 100선</p>
+                <article className="profile-record-item profile-award-item">
+                  <p>2021</p>
+                  <div>
+                    <h3>Top 100 National R&amp;D Achievements</h3>
+                    <p>Minister&apos;s Award · Ministry of Science and ICT</p>
+                    <p lang="ko">국가연구개발 우수성과 100선</p>
+                  </div>
                 </article>
-                <article>
-                  <span>2020</span>
-                  <h3>Outstanding Early Career Researcher Award</h3>
-                  <p>Institute of Control, Robotics and Systems</p>
-                  <p lang="ko">제어·로봇·시스템학회 우수신진연구자상</p>
+                <article className="profile-record-item profile-award-item">
+                  <p>2020</p>
+                  <div>
+                    <h3>Outstanding Early Career Researcher Award</h3>
+                    <p>Institute of Control, Robotics and Systems</p>
+                    <p lang="ko">제어·로봇·시스템학회 우수신진연구자상</p>
+                  </div>
                 </article>
               </div>
             </section>
