@@ -27,7 +27,6 @@ export default function PeoplePage() {
                 <div><dt>Research</dt><dd>SLAM · Spatial Intelligence · Robotics & Mobility</dd></div>
               </dl>
               <div className="profile-actions">
-                <Link href="/people/young-sik-shin">Full Profile →</Link>
                 <a href="https://scholar.google.com/citations?user=gGfBRawAAAAJ" target="_blank" rel="noreferrer">Google Scholar ↗</a>
                 <a href="https://orcid.org/0000-0002-9653-0633" target="_blank" rel="noreferrer">ORCID ↗</a>
               </div>
