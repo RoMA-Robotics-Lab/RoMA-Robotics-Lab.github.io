@@ -305,6 +305,9 @@ export const publications: Publication[] = [
     title: "Bundle Adjustment from Sonar Images and SLAM Application for Seafloor Mapping",
     authors: "Y. Shin, Y. Lee, H.T. Choi, A. Kim",
     markedAuthors: "Y. Shin*, Y. Lee, H.T. Choi, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/7401963" },
+    ],
   },
 ];
 
