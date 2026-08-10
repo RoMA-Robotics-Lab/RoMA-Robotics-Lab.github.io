@@ -142,6 +142,7 @@ export const publications: Publication[] = [
     authors: "J. Kim, H. Kim, S. Jeong, Y. Shin, Y. Cho",
     markedAuthors: "J. Kim*, H. Kim, S. Jeong, Y. Shin, Y. Cho†",
     links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/11128593" },
       { label: "arXiv", url: "https://arxiv.org/abs/2412.05839" },
       { label: "Project", url: "https://sparolab.github.io/research/diter_plus/" },
       { label: "Video", url: "https://www.youtube.com/watch?v=RJ_netgAOT8" },
