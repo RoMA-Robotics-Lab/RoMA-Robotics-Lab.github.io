@@ -156,6 +156,7 @@ export const publications: Publication[] = [
     authors: "J. Park, Y. Shin, S. Kim",
     markedAuthors: "J. Park*, Y. Shin†, S. Kim†",
     links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/10721204" },
       { label: "Video", url: "https://www.youtube.com/watch?v=vO1qul85VN0" },
     ],
   },
@@ -166,6 +167,9 @@ export const publications: Publication[] = [
     title: "Efficient Traversability Mapping Based on Single Camera and 3D LiDAR",
     authors: "C. Youn, W. Youn, S. Kim, J. Park, Y. Shin",
     markedAuthors: "C. Youn*, W. Youn, S. Kim, J. Park, Y. Shin†",
+    links: [
+      { label: "Paper", url: "https://link.springer.com/chapter/10.1007/978-3-031-44851-5_47" },
+    ],
   },
   {
     year: "2022",
@@ -175,6 +179,7 @@ export const publications: Publication[] = [
     authors: "J. Park, Y. Cho, Y. Shin",
     markedAuthors: "J. Park*, Y. Cho†, Y. Shin†",
     links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/9899274" },
       { label: "Video", url: "https://www.youtube.com/watch?v=YYkVfaubxJg" },
     ],
   },
@@ -185,6 +190,10 @@ export const publications: Publication[] = [
     title: "Vivid++: Vision for Visibility Dataset",
     authors: "A. Lee, Y. Cho, Y. Shin, A. Kim, H. Myung",
     markedAuthors: "A. Lee*, Y. Cho, Y. Shin, A. Kim, H. Myung†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/9760091" },
+      { label: "Project", url: "https://visibilitydataset.github.io/" },
+    ],
   },
   {
     year: "2022",
@@ -193,6 +202,9 @@ export const publications: Publication[] = [
     title: "Work Efficiency Analysis of Multiple Heterogeneous Robots for Harvesting Crops in Smart Greenhouses",
     authors: "T. Choi, J. Park, J. Kim, Y. Shin, H. Seo",
     markedAuthors: "T. Choi*, J. Park, J. Kim, Y. Shin, H. Seo†",
+    links: [
+      { label: "Paper", url: "https://www.mdpi.com/2073-4395/12/11/2844" },
+    ],
   },
   {
     year: "2021",
@@ -201,6 +213,10 @@ export const publications: Publication[] = [
     title: "3D Ego-Motion Estimation Using Low-Cost mmWave Radars via Radar Velocity Factor for Pose-Graph SLAM",
     authors: "Y. Park, Y. Shin, J. Kim, A. Kim",
     markedAuthors: "Y. Park*, Y. Shin, J. Kim, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/9495184" },
+      { label: "Video", url: "https://www.youtube.com/watch?v=TdKtTZgjMBQ" },
+    ],
   },
   {
     year: "2020",
@@ -209,6 +225,9 @@ export const publications: Publication[] = [
     title: "DVL-SLAM: Sparse Depth Enhanced Direct Visual-LiDAR SLAM",
     authors: "Y. Shin, Y. Park, A. Kim",
     markedAuthors: "Y. Shin*, Y. Park, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://link.springer.com/article/10.1007/s10514-019-09881-0" },
+    ],
   },
   {
     year: "2020",
@@ -217,6 +236,10 @@ export const publications: Publication[] = [
     title: "Pharao: Direct Radar Odometry Using Phase Correlation",
     authors: "Y. Park, Y. Shin, A. Kim",
     markedAuthors: "Y. Park*, Y. Shin, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/9197231" },
+      { label: "Video", url: "https://www.youtube.com/watch?v=RthIBF1UsJ8" },
+    ],
   },
   {
     year: "2019",
@@ -225,6 +248,9 @@ export const publications: Publication[] = [
     title: "Validation of a Multi-Sensor-Based Kiosk for Short Physical Performance Battery",
     authors: "H.W. Jung, H. Roh, Y. Cho, J. Jeong, Y. Shin, J.Y. Lim, J.M. Guralnik, J. Park",
     markedAuthors: "H.W. Jung*, H. Roh, Y. Cho, J. Jeong, Y. Shin, J.Y. Lim, J.M. Guralnik, J. Park†",
+    links: [
+      { label: "Paper", url: "https://agsjournals.onlinelibrary.wiley.com/doi/abs/10.1111/jgs.16135" },
+    ],
   },
   {
     year: "2019",
@@ -233,6 +259,10 @@ export const publications: Publication[] = [
     title: "Complex Urban Dataset with Multi-Level Sensors from Highly Diverse Urban Environments",
     authors: "J. Jeong, Y. Cho, Y. Shin, H. Roh, A. Kim",
     markedAuthors: "J. Jeong*, Y. Cho, Y. Shin, H. Roh, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://journals.sagepub.com/doi/10.1177/0278364919843996" },
+      { label: "Project", url: "https://sites.google.com/view/complex-urban-dataset" },
+    ],
   },
   {
     year: "2019",
@@ -241,6 +271,10 @@ export const publications: Publication[] = [
     title: "Sparse Depth Enhanced Direct Thermal-Infrared SLAM Beyond the Visible Spectrum",
     authors: "Y. Shin, A. Kim",
     markedAuthors: "Y. Shin*, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/8737772" },
+      { label: "Video", url: "https://www.youtube.com/watch?v=oO7lT3uAzLc" },
+    ],
   },
   {
     year: "2019",
@@ -249,6 +283,9 @@ export const publications: Publication[] = [
     title: "Underwater Object Detection and Pose Estimation Using Deep Learning",
     authors: "M.H. Jeon, Y. Lee, Y. Shin, H. Jang, A. Kim",
     markedAuthors: "M.H. Jeon*, Y. Lee, Y. Shin, H. Jang, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://www.sciencedirect.com/science/article/pii/S2405896319321718" },
+    ],
   },
   {
     year: "2018",
@@ -257,6 +294,10 @@ export const publications: Publication[] = [
     title: "Direct Visual SLAM Using Sparse Depth for Camera-LiDAR System",
     authors: "Y. Shin, Y. Park, A. Kim",
     markedAuthors: "Y. Shin*, Y. Park, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/8461102" },
+      { label: "Video", url: "https://www.youtube.com/watch?v=swN3oRj5WEg" },
+    ],
   },
   {
     year: "2018",
@@ -265,6 +306,10 @@ export const publications: Publication[] = [
     title: "Complex Urban LiDAR Data Set",
     authors: "J. Jeong, Y. Cho, Y. Shin, H. Roh, A. Kim",
     markedAuthors: "J. Jeong*, Y. Cho, Y. Shin, H. Roh, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/8460834" },
+      { label: "Video", url: "https://www.youtube.com/watch?v=IguZjmLf5V0" },
+    ],
   },
   {
     year: "2017",
@@ -273,6 +318,9 @@ export const publications: Publication[] = [
     title: "LiDAR Configuration Comparison for Urban Mapping System",
     authors: "J. Kim, J. Jeong, Y. Shin, Y. Cho, H. Roh, A. Kim",
     markedAuthors: "J. Kim*, J. Jeong, Y. Shin, Y. Cho, H. Roh, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/7992845" },
+    ],
   },
   {
     year: "2016",
@@ -281,6 +329,9 @@ export const publications: Publication[] = [
     title: "Online Depth Estimation and Application to Underwater Image Dehazing",
     authors: "Y. Cho, Y. Shin, A. Kim",
     markedAuthors: "Y. Cho*, Y. Shin, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/7761109/" },
+    ],
   },
   {
     year: "2016",
@@ -289,6 +340,9 @@ export const publications: Publication[] = [
     title: "Nontemporal Relative Pose Estimation for Opti-Acoustic Bundle Adjustment",
     authors: "D.H. Gwon, Y. Shin, Y. Kim, A. Kim, Y. Lee, H.T. Choi",
     markedAuthors: "D.H. Gwon*, Y. Shin, Y. Kim, A. Kim, Y. Lee, H.T. Choi†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/7761110" },
+    ],
   },
   {
     year: "2016",
@@ -297,6 +351,9 @@ export const publications: Publication[] = [
     title: "Estimation of Ambient Light and Transmission Map with Common Convolutional Architecture",
     authors: "Y. Shin, Y. Cho, G. Pandey, A. Kim",
     markedAuthors: "Y. Shin*, Y. Cho, G. Pandey, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/7761342/" },
+    ],
   },
   {
     year: "2015",
