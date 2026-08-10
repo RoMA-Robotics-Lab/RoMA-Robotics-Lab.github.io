@@ -66,6 +66,7 @@ const iesmPublication: Publication = {
     image: "/selected-iesm.webp",
     imageAlt: "Overview of Instance-Enriched Semantic Mapping and multi-type expert fusion for visual-language navigation",
     links: [
+      { label: "Paper", url: "https://www.sciencedirect.com/science/article/pii/S0952197626019603" },
       { label: "arXiv", url: "https://arxiv.org/abs/2607.12630" },
       { label: "Project", url: "https://rcilab.github.io/iesm_vln/" },
     ],
@@ -83,6 +84,7 @@ const msgLocPublication: Publication = {
     image: "/selected-msg-loc.webp",
     imageAlt: "MSG-Loc semantic graph matching pipeline with qualitative localization results",
     links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/11297765" },
       { label: "arXiv", url: "https://arxiv.org/abs/2512.03522" },
       { label: "Project", url: "https://sparolab.github.io/research/msg-loc/" },
       { label: "Video", url: "https://www.youtube.com/watch?v=Nmz_XxtqOr8" },
@@ -102,6 +104,7 @@ const uniMapperPublication: Publication = {
     image: "/selected-unimapper.webp",
     imageAlt: "Uni-Mapper multi-modal LiDAR mapping results with dynamic-object removal across four sensor platforms",
     links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/iel8/7274857/7448921/11057931.pdf" },
       { label: "arXiv", url: "https://arxiv.org/abs/2507.20538" },
       { label: "Project", url: "https://sparolab.github.io/research/uni_mapper/" },
       { label: "Video", url: "https://www.youtube.com/watch?v=SK0TU9Vy3Is" },
@@ -120,6 +123,7 @@ export const publications: Publication[] = [
     markedAuthors: "D.G. Lee*, T.H. Rhee, H. Jang, Y. Shin, U. Shin, A. Kim†",
     visual: "thermal",
     links: [
+      { label: "Paper", url: "https://openaccess.thecvf.com/content/CVPR2026/html/Lee_TherA_Thermal-Aware_Visual-Language_Prompting_for_Controllable_RGB-to-Thermal_Infrared_Translation_CVPR_2026_paper.html" },
       { label: "arXiv", url: "https://arxiv.org/abs/2602.19430" },
       { label: "Code", url: "https://github.com/donkeymouse/TherA" },
     ],
@@ -142,6 +146,7 @@ export const publications: Publication[] = [
     authors: "J. Kim, H. Kim, S. Jeong, Y. Shin, Y. Cho",
     markedAuthors: "J. Kim*, H. Kim, S. Jeong, Y. Shin, Y. Cho†",
     links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/11128593" },
       { label: "arXiv", url: "https://arxiv.org/abs/2412.05839" },
       { label: "Project", url: "https://sparolab.github.io/research/diter_plus/" },
       { label: "Video", url: "https://www.youtube.com/watch?v=RJ_netgAOT8" },
@@ -156,6 +161,7 @@ export const publications: Publication[] = [
     authors: "J. Park, Y. Shin, S. Kim",
     markedAuthors: "J. Park*, Y. Shin†, S. Kim†",
     links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/10721204" },
       { label: "Video", url: "https://www.youtube.com/watch?v=vO1qul85VN0" },
     ],
   },
@@ -166,6 +172,9 @@ export const publications: Publication[] = [
     title: "Efficient Traversability Mapping Based on Single Camera and 3D LiDAR",
     authors: "C. Youn, W. Youn, S. Kim, J. Park, Y. Shin",
     markedAuthors: "C. Youn*, W. Youn, S. Kim, J. Park, Y. Shin†",
+    links: [
+      { label: "Paper", url: "https://link.springer.com/chapter/10.1007/978-3-031-44851-5_47" },
+    ],
   },
   {
     year: "2022",
@@ -175,6 +184,7 @@ export const publications: Publication[] = [
     authors: "J. Park, Y. Cho, Y. Shin",
     markedAuthors: "J. Park*, Y. Cho†, Y. Shin†",
     links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/9899274" },
       { label: "Video", url: "https://www.youtube.com/watch?v=YYkVfaubxJg" },
     ],
   },
@@ -185,6 +195,10 @@ export const publications: Publication[] = [
     title: "Vivid++: Vision for Visibility Dataset",
     authors: "A. Lee, Y. Cho, Y. Shin, A. Kim, H. Myung",
     markedAuthors: "A. Lee*, Y. Cho, Y. Shin, A. Kim, H. Myung†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/9760091" },
+      { label: "Project", url: "https://visibilitydataset.github.io/" },
+    ],
   },
   {
     year: "2022",
@@ -193,6 +207,9 @@ export const publications: Publication[] = [
     title: "Work Efficiency Analysis of Multiple Heterogeneous Robots for Harvesting Crops in Smart Greenhouses",
     authors: "T. Choi, J. Park, J. Kim, Y. Shin, H. Seo",
     markedAuthors: "T. Choi*, J. Park, J. Kim, Y. Shin, H. Seo†",
+    links: [
+      { label: "Paper", url: "https://www.mdpi.com/2073-4395/12/11/2844" },
+    ],
   },
   {
     year: "2021",
@@ -201,6 +218,10 @@ export const publications: Publication[] = [
     title: "3D Ego-Motion Estimation Using Low-Cost mmWave Radars via Radar Velocity Factor for Pose-Graph SLAM",
     authors: "Y. Park, Y. Shin, J. Kim, A. Kim",
     markedAuthors: "Y. Park*, Y. Shin, J. Kim, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/9495184" },
+      { label: "Video", url: "https://www.youtube.com/watch?v=TdKtTZgjMBQ" },
+    ],
   },
   {
     year: "2020",
@@ -209,6 +230,9 @@ export const publications: Publication[] = [
     title: "DVL-SLAM: Sparse Depth Enhanced Direct Visual-LiDAR SLAM",
     authors: "Y. Shin, Y. Park, A. Kim",
     markedAuthors: "Y. Shin*, Y. Park, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://link.springer.com/article/10.1007/s10514-019-09881-0" },
+    ],
   },
   {
     year: "2020",
@@ -217,6 +241,10 @@ export const publications: Publication[] = [
     title: "Pharao: Direct Radar Odometry Using Phase Correlation",
     authors: "Y. Park, Y. Shin, A. Kim",
     markedAuthors: "Y. Park*, Y. Shin, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/9197231" },
+      { label: "Video", url: "https://www.youtube.com/watch?v=RthIBF1UsJ8" },
+    ],
   },
   {
     year: "2019",
@@ -225,6 +253,9 @@ export const publications: Publication[] = [
     title: "Validation of a Multi-Sensor-Based Kiosk for Short Physical Performance Battery",
     authors: "H.W. Jung, H. Roh, Y. Cho, J. Jeong, Y. Shin, J.Y. Lim, J.M. Guralnik, J. Park",
     markedAuthors: "H.W. Jung*, H. Roh, Y. Cho, J. Jeong, Y. Shin, J.Y. Lim, J.M. Guralnik, J. Park†",
+    links: [
+      { label: "Paper", url: "https://agsjournals.onlinelibrary.wiley.com/doi/abs/10.1111/jgs.16135" },
+    ],
   },
   {
     year: "2019",
@@ -233,6 +264,10 @@ export const publications: Publication[] = [
     title: "Complex Urban Dataset with Multi-Level Sensors from Highly Diverse Urban Environments",
     authors: "J. Jeong, Y. Cho, Y. Shin, H. Roh, A. Kim",
     markedAuthors: "J. Jeong*, Y. Cho, Y. Shin, H. Roh, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://journals.sagepub.com/doi/10.1177/0278364919843996" },
+      { label: "Project", url: "https://sites.google.com/view/complex-urban-dataset" },
+    ],
   },
   {
     year: "2019",
@@ -241,6 +276,10 @@ export const publications: Publication[] = [
     title: "Sparse Depth Enhanced Direct Thermal-Infrared SLAM Beyond the Visible Spectrum",
     authors: "Y. Shin, A. Kim",
     markedAuthors: "Y. Shin*, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/8737772" },
+      { label: "Video", url: "https://www.youtube.com/watch?v=oO7lT3uAzLc" },
+    ],
   },
   {
     year: "2019",
@@ -249,6 +288,9 @@ export const publications: Publication[] = [
     title: "Underwater Object Detection and Pose Estimation Using Deep Learning",
     authors: "M.H. Jeon, Y. Lee, Y. Shin, H. Jang, A. Kim",
     markedAuthors: "M.H. Jeon*, Y. Lee, Y. Shin, H. Jang, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://www.sciencedirect.com/science/article/pii/S2405896319321718" },
+    ],
   },
   {
     year: "2018",
@@ -257,6 +299,10 @@ export const publications: Publication[] = [
     title: "Direct Visual SLAM Using Sparse Depth for Camera-LiDAR System",
     authors: "Y. Shin, Y. Park, A. Kim",
     markedAuthors: "Y. Shin*, Y. Park, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/8461102" },
+      { label: "Video", url: "https://www.youtube.com/watch?v=swN3oRj5WEg" },
+    ],
   },
   {
     year: "2018",
@@ -265,6 +311,10 @@ export const publications: Publication[] = [
     title: "Complex Urban LiDAR Data Set",
     authors: "J. Jeong, Y. Cho, Y. Shin, H. Roh, A. Kim",
     markedAuthors: "J. Jeong*, Y. Cho, Y. Shin, H. Roh, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/8460834" },
+      { label: "Video", url: "https://www.youtube.com/watch?v=IguZjmLf5V0" },
+    ],
   },
   {
     year: "2017",
@@ -273,6 +323,9 @@ export const publications: Publication[] = [
     title: "LiDAR Configuration Comparison for Urban Mapping System",
     authors: "J. Kim, J. Jeong, Y. Shin, Y. Cho, H. Roh, A. Kim",
     markedAuthors: "J. Kim*, J. Jeong, Y. Shin, Y. Cho, H. Roh, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/7992845" },
+    ],
   },
   {
     year: "2016",
@@ -281,6 +334,9 @@ export const publications: Publication[] = [
     title: "Online Depth Estimation and Application to Underwater Image Dehazing",
     authors: "Y. Cho, Y. Shin, A. Kim",
     markedAuthors: "Y. Cho*, Y. Shin, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/7761109/" },
+    ],
   },
   {
     year: "2016",
@@ -289,6 +345,9 @@ export const publications: Publication[] = [
     title: "Nontemporal Relative Pose Estimation for Opti-Acoustic Bundle Adjustment",
     authors: "D.H. Gwon, Y. Shin, Y. Kim, A. Kim, Y. Lee, H.T. Choi",
     markedAuthors: "D.H. Gwon*, Y. Shin, Y. Kim, A. Kim, Y. Lee, H.T. Choi†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/7761110" },
+    ],
   },
   {
     year: "2016",
@@ -297,6 +356,9 @@ export const publications: Publication[] = [
     title: "Estimation of Ambient Light and Transmission Map with Common Convolutional Architecture",
     authors: "Y. Shin, Y. Cho, G. Pandey, A. Kim",
     markedAuthors: "Y. Shin*, Y. Cho, G. Pandey, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/document/7761342/" },
+    ],
   },
   {
     year: "2015",
@@ -305,6 +367,9 @@ export const publications: Publication[] = [
     title: "Bundle Adjustment from Sonar Images and SLAM Application for Seafloor Mapping",
     authors: "Y. Shin, Y. Lee, H.T. Choi, A. Kim",
     markedAuthors: "Y. Shin*, Y. Lee, H.T. Choi, A. Kim†",
+    links: [
+      { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/7401963" },
+    ],
   },
 ];
 
@@ -322,93 +387,91 @@ export const selectedPublications: Publication[] = selectedPublicationIds.flatMa
 export const domesticPublications = [
   {
     year: "2025",
-    venueFull: "ICROS Annual Conference · 제어로봇시스템학회 국내학술대회",
-    title: "Comparison of Reinforcement Learning-Based Locomotion Performance for Quadruped and Humanoid Robots",
+    venueFull: "ICROS 2025 · 제어·로봇·시스템학회 학술대회",
+    title: "Comparison of Reinforcement Learning-Based Locomotion Control for Quadruped and Humanoid Robots",
     titleKo: "4족보행 및 휴머노이드 로봇의 강화학습 기반 보행성능 비교",
     markedAuthors: "D.H. Kim*, J.D. Jung, Y. Shin†",
   },
   {
     year: "2024",
-    venueFull: "ICROS Annual Conference · 제어로봇시스템학회 국내학술대회",
-    title: "Plane Factor-Based Graph SLAM and Semantic Object Representation in Indoor Environments",
+    venueFull: "ICROS 2024 · 제어·로봇·시스템학회 학술대회",
+    title: "Plane Factor-Based Graph SLAM and Semantic Object Representation Method in Indoor Environment",
     titleKo: "실내 환경에서의 평면 팩터 기반 그래프 SLAM 및 의미론적 물체 표현 방법",
     markedAuthors: "K. Lee*, D. Cho, G. Kang, Y. Shin†",
   },
   {
     year: "2024",
-    venueFull: "ICROS Annual Conference · 제어로봇시스템학회 국내학술대회",
-    title: "Multi-Sensor SLAM Implementation for Cooperative Exploration by Multiple Robots",
+    venueFull: "ICROS 2024 · 제어·로봇·시스템학회 학술대회",
+    title: "Implementation of multi-sensor based SLAM for collaborative scientific exploration of multiple robots",
     titleKo: "다수 로봇의 협력적 탐사 작업을 위한 다중 센서 기반의 SLAM 구현",
     markedAuthors: "C. Youn*, Y. Park, J. Park, Y. Shin†",
   },
   {
     year: "2023",
-    venueFull: "ICROS Annual Conference · 제어로봇시스템학회 국내학술대회",
-    title: "Online Object Parameter Estimation during Transportation for Human–Robot Collaborative Tasks",
-    titleKo: "사람-로봇 협업 작업을 위한 이송 중 물체 파라미터 추정",
+    venueFull: "ICROS 2023 · 제어·로봇·시스템학회 학술대회",
+    title: "사람-로봇 협업 작업을 위한 이송 중 물체 파라미터 추정",
     markedAuthors: "J. Park, S. Kim, Y. Shin†",
   },
   {
     year: "2023",
     venueFull: "KSME Conference · 대한기계학회 춘추학술대회",
-    title: "An Open Platform for ROS 2-Based Autonomous Mobile Manipulator Tasks",
-    titleKo: "ROS2 기반 모바일 매니퓰레이터 자율 작업을 위한 오픈 플랫폼",
+    title: "Open-source Robot Framework for Mobile Manipulator in ROS2",
+    titleKo: "ROS2 기반 모바일 메니퓰레이터 자율 작업을 위한 오픈 플랫폼",
     markedAuthors: "S. Kim*, J. Park, Y. Shin†",
   },
   {
     year: "2022",
     venueFull: "The Journal of Korean Institute of Communications and Information Sciences · 한국통신학회논문지",
-    title: "Work Efficiency Analysis of Heterogeneous Multi-Robot Systems for Crop Harvesting in Protected Horticulture",
+    title: "Analysis of Work Efficiency of Multiple Heterogeneous Robots for Harvesting Crops in the Green House",
     titleKo: "시설원예 작물수확을 위한 이종 복수 로봇의 작업효율 분석",
     markedAuthors: "T. Choi*, J. Park, J. Kim, Y. Shin, D. Kim†",
   },
   {
     year: "2022",
     venueFull: "Journal of the KSME · 대한기계학회 기계저널",
-    title: "Research Trends in Agricultural Grippers",
-    titleKo: "농업용 그리퍼의 연구 동향",
+    title: "농업용 그리퍼의 연구 동향",
     markedAuthors: "T. Choi*, J. Park, J. Kim, Y. Shin",
   },
   {
     year: "2022",
-    venueFull: "ICROS Annual Conference · 제어로봇시스템학회 국내학술대회",
-    title: "Development of Harvesting and Transport Robot Systems for Protected Environments",
+    venueFull: "ICROS 2022 · 제어·로봇·시스템학회 학술대회",
+    title: "Development of harvesting robot and transfer robot for greenhouse environment",
     titleKo: "시설환경용 수확로봇 및 이송로봇 시스템 개발",
     markedAuthors: "T. Choi*†, J. Kim, J. Park, Y. Shin",
   },
   {
     year: "2022",
-    venueFull: "ICROS Annual Conference · 제어로봇시스템학회 국내학술대회",
-    title: "Development of a Dynamic Object Tracking and Following Robot Using an RGB-D Sensor",
+    venueFull: "ICROS 2022 · 제어·로봇·시스템학회 학술대회",
+    title: "Moving Object Tracking and Following Mobile Robot using RGB-D Sensor-based Recognition",
     titleKo: "RGB-D 센서를 활용한 동적 객체 추적 및 추종 로봇 개발",
     markedAuthors: "C. Youn*, Y. Shin†",
   },
   {
-    year: "2022",
+    year: "2021",
     venueFull: "Journal of the Korean Society of Hazard Mitigation · 한국방재학회논문집",
-    title: "Development of a Cloud-Based Real-Time Building Condition Monitoring and Prediction System Using AI and IoT Sensors",
+    title: "Development of a Cloud-Based Real-Time Building Health Monitoring and Prediction System Using AI and IoT Sensors",
     titleKo: "AI와 IoT 센서를 이용한 클라우드 기반 건축물 실시간 상태감시 및 예측시스템 개발",
     markedAuthors: "C.W. Ha*, B. Ahn, Y. Shin, J. Park, J.K. Lee, J. Kim†",
   },
   {
     year: "2019",
     venueFull: "Journal of Korea Robotics Society · 한국로봇학회논문지",
-    title: "Image Synthesis and an Automated Annotation Tool for Robust CNN-Based Underwater Object Recognition",
+    title: "Synthesizing Image and Automated Annotation Tool for CNN based Under Water Object Detection",
     titleKo: "강건한 CNN기반 수중 물체 인식을 위한 이미지 합성과 자동화된 Annotation Tool",
     markedAuthors: "M.H. Jeon*, Y. Lee, Y. Shin, H. Jang, T. Yeu, A. Kim†",
   },
   {
     year: "2016",
     venueFull: "Journal of Ocean Engineering and Technology · 해양공학회지",
-    title: "Comparative Study of Sonar Image Processing for Underwater Exploration",
-    titleKo: "수중 탐색을 위한 소나 이미지 처리 비교 연구",
+    title: "Comparative Study of Sonar Image Processing for Underwater Navigation",
+    titleKo: "항법 적용을 위한 수중 소나 영상 처리 요소 기법 비교 분석",
     markedAuthors: "Y. Shin*, Y. Cho, Y. Lee, H. Choi, A. Kim†",
   },
   {
     year: "2016",
     venueFull: "Journal of Korea Robotics Society · 한국로봇학회논문지",
-    title: "Bundle Adjustment and 3D Reconstruction Using Underwater Sonar Images",
-    titleKo: "수중 소나 이미지를 이용한 번들 조정 및 3D 복원 방법",
+    title: "Bundle Adjustment and 3D Reconstruction Method for Underwater Sonar Image",
+    titleKo: "수중 영상 소나의 번들 조정과 3차원 복원을 위한 운동 추정의 모호성에 관한 연구",
     markedAuthors: "Y. Shin*, Y. Lee, H.T. Choi, A. Kim†",
   },
 ];
@@ -419,6 +482,9 @@ export const workshopPublications = [
     venueFull: "IROS Workshop on Open World Navigation in Human-Centric Environments",
     title: "MUST-Loc: Multi-View Uncertainty-Aware Semantic Token Association for Object-Level Global Localization",
     markedAuthors: "G. Lee*, Y. Shin†, Y. Cho†",
+    links: [
+      { label: "Project", url: "https://sparolab.github.io/research/must-loc/" },
+    ],
   },
   {
     year: "2019",
