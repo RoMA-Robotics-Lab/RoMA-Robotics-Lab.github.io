@@ -482,6 +482,9 @@ export const workshopPublications = [
     venueFull: "IROS Workshop on Open World Navigation in Human-Centric Environments",
     title: "MUST-Loc: Multi-View Uncertainty-Aware Semantic Token Association for Object-Level Global Localization",
     markedAuthors: "G. Lee*, Y. Shin†, Y. Cho†",
+    links: [
+      { label: "Project", url: "https://sparolab.github.io/research/must-loc/" },
+    ],
   },
   {
     year: "2019",
