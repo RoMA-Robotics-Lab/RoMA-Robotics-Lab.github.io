@@ -519,10 +519,10 @@ export const members = [
 export const newsItems = [
   { date: "2026.08", category: "Member", text: "Juhyun Kim joined RoMA Lab. Welcome!", korean: "김주현 학생이 학부연구생으로 합류했습니다. 환영합니다!" },
   { date: "2026.07", category: "Paper", text: "IESM for VLN was accepted to EAAI in collaboration with KHU RCI Lab.", korean: "IESM for VLN 논문이 경희대학교 RCI Lab과의 공동 연구를 통해 EAAI에 게재 승인되었습니다.", link: { label: "RCI Lab", url: "https://rcilab.khu.ac.kr/" } },
-  { date: "2026.07", category: "Member", text: "Soobin Lee and Taegyu Jang joined RoMA Lab.", korean: "이수빈, 장태규 학생이 학부연구생으로 합류했습니다. 환영합니다!" },
+  { date: "2026.07", category: "Member", text: "Soobin Lee and Taegyu Jang joined RoMA Lab. Welcome!", korean: "이수빈, 장태규 학생이 학부연구생으로 합류했습니다. 환영합니다!" },
   { date: "2026.07", category: "Event", text: "RoMA Lab organized a special session on spatial intelligence-based mobile robots at ICROS 2026.", korean: "2026 제어로봇시스템학회, 공간지능 기반 이동 로봇의 자율이동 및 상호작용 특별세션 개최" },
   { date: "2026.07", category: "Member", text: "Sihyeong Lee joined RoMA Lab. Welcome!", korean: "이시형 학생이 학부연구생으로 합류했습니다. 환영합니다!" },
-  { date: "2026.06", category: "Member", text: "Jinwoo Bae, Jihwan Jeon, and Ian Kim joined RoMA Lab.", korean: "배진우, 전지환, 김이언 학생이 학부연구생으로 합류했습니다. 환영합니다!" },
+  { date: "2026.06", category: "Member", text: "Jinwoo Bae, Jihwan Jeon, and Ian Kim joined RoMA Lab. Welcome!", korean: "배진우, 전지환, 김이언 학생이 학부연구생으로 합류했습니다. 환영합니다!" },
   { date: "2026.05", category: "Event", text: "Outstanding Early-Career Researcher Presentation at KSAE 2026 Spring Conference.", korean: "2026 한국자동차공학회 춘계학술대회, 신진과학자 세션 발표" },
   { date: "2026.03", category: "Paper", text: "TherA was accepted to CVPR 2026 in collaboration with SNU RPM Lab.", korean: "TherA 논문이 서울대학교 RPM Lab과의 공동 연구를 통해 CVPR 2026에 게재 승인되었습니다.", link: { label: "RPM Lab", url: "https://rpm.snu.ac.kr/" } },
   { date: "2026.03", category: "Lab", text: "Robotics, Mobility and AI Lab opened at Kyungpook National University.", korean: "경북대학교에서 AI 로봇 모빌리티 연구실(RoMA Lab)이 새롭게 오픈했습니다." },
