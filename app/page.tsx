@@ -82,7 +82,7 @@ export default function Home() {
               {newsItems.slice(0, 5).map((item) => (
                 <article key={`${item.date}-${item.text}`}>
                   <time>{item.date}</time>
-                  <div><span>{item.category}</span><p><NewsText text={item.text} link={item.link} /></p></div>
+                  <div><span>{item.category}</span><p><NewsText text={item.homeText ?? item.text} link={item.link} /></p></div>
                 </article>
               ))}
             </div>
