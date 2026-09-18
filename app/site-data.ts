@@ -508,20 +508,20 @@ export const workshopPublications = [
 
 export const members = [
   { name: "Sungguk Yu", korean: "유성국", role: "Researcher" },
-  { name: "Juhyun Kim", korean: "김주현", role: "Undergraduate Researcher" },
-  { name: "Soobin Lee", korean: "이수빈", role: "Undergraduate Researcher" },
-  { name: "Taegyu Jang", korean: "장태규", role: "Undergraduate Researcher" },
-  { name: "Sihyeong Lee", korean: "이시형", role: "Undergraduate Researcher" },
-  { name: "Ian Kim", korean: "김이언", role: "Undergraduate Researcher" },
-  { name: "Jihwan Jeon", korean: "전지환", role: "Undergraduate Researcher" },
-  { name: "Jinwoo Bae", korean: "배진우", role: "Undergraduate Researcher" },
+  { name: "Juhyun Kim", korean: "김주현", role: "Undergraduate Student" },
+  { name: "Soobin Lee", korean: "이수빈", role: "Undergraduate Student" },
+  { name: "Taegyu Jang", korean: "장태규", role: "Undergraduate Student" },
+  { name: "Sihyeong Lee", korean: "이시형", role: "Undergraduate Student" },
+  { name: "Ian Kim", korean: "김이언", role: "Undergraduate Student" },
+  { name: "Jihwan Jeon", korean: "전지환", role: "Undergraduate Student" },
+  { name: "Jinwoo Bae", korean: "배진우", role: "Undergraduate Student" },
 ];
 
 export const newsItems = [
   { date: "2026.09", category: "Member", text: "Sungguk Yu joined RoMA Lab as a researcher. Welcome!", korean: "유성국 학생이 연구원으로 합류했습니다. 환영합니다!" },
   { date: "2026.08", category: "Grant", text: "RoMA Lab has been selected for funding under the 2026 NRF Core Research Program.", korean: "RoMA Lab이 2026년도 과학기술정보통신부·한국연구재단 개인기초연구사업 핵심연구(전략형) 신규과제에 선정되었습니다." },
   { date: "2026.08", category: "Grant", text: "RoMA Lab has been selected for funding for two projects under the 2026 Robot Industry Technology Development Program of the Ministry of Trade, Industry and Energy (MOTIE).", homeText: "RoMA Lab has been selected for funding for two projects under the 2026 Robot Industry Technology Development Program of MOTIE.", korean: "RoMA Lab이 산업통상자원부의 2026년도 로봇산업기술개발사업 과제 2건에 선정되었습니다." },
-  { date: "2026.08", category: "Award", text: "Undergraduate researchers Jihwan Jeon and Ian Kim won an award at the 2026 Future Mobility Self-Built Vehicle Competition. Congratulations!", korean: "학부연구생 전지환, 김이언 학생이 2026 미래형 이동수단 자작 경진대회에서 수상했습니다. 축하합니다!" },
+  { date: "2026.08", category: "Award", text: "Undergraduate students Jihwan Jeon and Ian Kim won an award at the 2026 Future Mobility Self-Built Vehicle Competition. Congratulations!", korean: "학부연구생 전지환, 김이언 학생이 2026 미래형 이동수단 자작 경진대회에서 수상했습니다. 축하합니다!" },
   { date: "2026.08", category: "Member", text: "Juhyun Kim joined RoMA Lab. Welcome!", korean: "김주현 학생이 학부연구생으로 합류했습니다. 환영합니다!" },
   { date: "2026.07", category: "Paper", text: "IESM for VLN was accepted to EAAI in collaboration with KHU RCI Lab.", korean: "IESM for VLN 논문이 경희대학교 RCI Lab과의 공동 연구를 통해 EAAI에 게재 승인되었습니다.", link: { label: "RCI Lab", url: "https://rcilab.khu.ac.kr/" } },
   { date: "2026.07", category: "Member", text: "Soobin Lee and Taegyu Jang joined RoMA Lab. Welcome!", korean: "이수빈, 장태규 학생이 학부연구생으로 합류했습니다. 환영합니다!" },
