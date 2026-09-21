@@ -518,6 +518,7 @@ export const members = [
 ];
 
 export const newsItems = [
+  { date: "2026.09", category: "Event", text: "Presentation at the 2026 Maritime Robotics (AMR) Technical Seminar hosted by Korean Register (KR).", korean: "한국선급 주최 2026 조선해양 로봇(AMR) 기술 세미나 발표" },
   { date: "2026.09", category: "Member", text: "Sungguk Yu joined RoMA Lab as a researcher. Welcome!", korean: "유성국 학생이 연구원으로 합류했습니다. 환영합니다!" },
   { date: "2026.08", category: "Grant", text: "RoMA Lab has been selected for funding under the 2026 NRF Core Research Program.", korean: "RoMA Lab이 2026년도 과학기술정보통신부·한국연구재단 개인기초연구사업 핵심연구(전략형) 신규과제에 선정되었습니다." },
   { date: "2026.08", category: "Grant", text: "RoMA Lab has been selected for funding for two projects under the 2026 Robot Industry Technology Development Program of the Ministry of Trade, Industry and Energy (MOTIE).", homeText: "RoMA Lab has been selected for funding for two projects under the 2026 Robot Industry Technology Development Program of MOTIE.", korean: "RoMA Lab이 산업통상자원부의 2026년도 로봇산업기술개발사업 과제 2건에 선정되었습니다." },
