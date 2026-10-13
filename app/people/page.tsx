@@ -51,12 +51,28 @@ export default function PeoplePage() {
                 <div aria-hidden="true">{String(index + 1).padStart(2, "0")}</div>
                 <h3>{member.name}</h3>
                 <p>{member.korean}</p>
-                <span>{member.role}</span>
+                <span>{member.role.split(" (")[0]}{member.role.includes(" (") && <> <span className="member-role-note">({member.role.split(" (")[1]}</span></>}</span>
+                {member.period && <p className="member-affiliation">{member.period}</p>}
+                {member.program && <p className="member-affiliation">{member.program}</p>}
                 {member.affiliation && (
-                  <p>Affiliation: <a href={member.affiliation.url} target="_blank" rel="noreferrer">{member.affiliation.label}</a></p>
+                  <p className="member-affiliation">Affiliation: <a href={member.affiliation.url} target="_blank" rel="noreferrer">{member.affiliation.label}</a></p>
                 )}
               </article>
             ))}
+          </div>
+          <div className="member-section-heading">
+            <h2 className="subsection-title">Alumni</h2>
+          </div>
+          <div className="member-grid">
+            <article className="member-card">
+              <div aria-hidden="true">01</div>
+              <h3>Chanmin Youn</h3>
+              <p>윤찬민</p>
+              <span>M.S.</span>
+              <p className="member-affiliation">2022.03–2024.02</p>
+              <p className="member-affiliation">CNU-KIMM<br />Cooperative Program</p>
+              <p className="member-affiliation">Samsung Heavy Industries<br />(Daedeok Research Center)</p>
+            </article>
           </div>
         </div>
       </section>

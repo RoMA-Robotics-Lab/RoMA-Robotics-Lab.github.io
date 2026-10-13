@@ -507,7 +507,8 @@ export const workshopPublications = [
 ];
 
 export const members = [
-  { name: "Junghyun Seo", korean: "서중현", role: "Ph.D. Student (Part-time)", affiliation: { label: "GITC", url: "https://www.gitc.or.kr/" } },
+  { name: "Junghyun Seo", korean: "서중현", role: "Ph.D. Student (Part-time)", period: "2026.09–Present", affiliation: { label: "GITC", url: "https://www.gitc.or.kr/" } },
+  { name: "Daehyeon Kim", korean: "김대현", role: "M.S. Student", period: "2025.03–Present", program: "CNU-KIMM Cooperative Program" },
   { name: "Sungguk Yu", korean: "유성국", role: "Researcher" },
   { name: "Juhyun Kim", korean: "김주현", role: "Undergraduate Student" },
   { name: "Soobin Lee", korean: "이수빈", role: "Undergraduate Student" },
