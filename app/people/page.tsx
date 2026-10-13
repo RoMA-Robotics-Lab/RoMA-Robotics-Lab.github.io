@@ -52,6 +52,9 @@ export default function PeoplePage() {
                 <h3>{member.name}</h3>
                 <p>{member.korean}</p>
                 <span>{member.role}</span>
+                {member.affiliation && (
+                  <p>Affiliation: <a href={member.affiliation.url} target="_blank" rel="noreferrer">{member.affiliation.label}</a></p>
+                )}
               </article>
             ))}
           </div>
