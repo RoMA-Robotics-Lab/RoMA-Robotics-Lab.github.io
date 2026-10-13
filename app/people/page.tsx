@@ -53,7 +53,6 @@ export default function PeoplePage() {
                 <p>{member.korean}</p>
                 <span>{member.role.split(" (")[0]}{member.role.includes(" (") && <> <span className="member-role-note">({member.role.split(" (")[1]}</span></>}</span>
                 {member.period && <p className="member-affiliation">{member.period}</p>}
-                {member.program && <p className="member-affiliation">{member.program}</p>}
                 {member.affiliation && (
                   <p className="member-affiliation">Affiliation: <a href={member.affiliation.url} target="_blank" rel="noreferrer">{member.affiliation.label}</a></p>
                 )}
@@ -68,9 +67,8 @@ export default function PeoplePage() {
               <div aria-hidden="true">01</div>
               <h3>Chanmin Youn</h3>
               <p>윤찬민</p>
-              <span>M.S.</span>
+              <span>M.S. <span className="member-role-note">(CNU-KIMM)</span></span>
               <p className="member-affiliation">2022.03–2024.02</p>
-              <p className="member-affiliation">CNU-KIMM<br />Cooperative Program</p>
               <p className="member-affiliation">Samsung Heavy Industries<br />(Daedeok Research Center)</p>
             </article>
           </div>
