@@ -78,7 +78,7 @@ export default function PeoplePage() {
             <h2 className="subsection-title">Past Members</h2>
           </div>
           <ul className="past-members-list">
-            <li><strong>Jinwoo Bae · 배진우</strong><span>Undergraduate Student, 2026.06–2026.09</span></li>
+            <li><strong>Jinwoo Bae (배진우)</strong><span>Undergraduate Student, 2026.06–2026.09</span></li>
           </ul>
         </div>
       </section>
