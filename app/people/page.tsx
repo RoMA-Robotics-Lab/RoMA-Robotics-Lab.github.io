@@ -74,6 +74,12 @@ export default function PeoplePage() {
               <p className="member-affiliation">Samsung Heavy Industries<br />(Daedeok Research Center)</p>
             </article>
           </div>
+          <div className="member-section-heading past-members-heading">
+            <h2 className="subsection-title">Past Members</h2>
+          </div>
+          <ul className="past-members-list">
+            <li><strong>Jinwoo Bae · 배진우</strong><span>Undergraduate Student, 2026.06–2026.09</span></li>
+          </ul>
         </div>
       </section>
     </>

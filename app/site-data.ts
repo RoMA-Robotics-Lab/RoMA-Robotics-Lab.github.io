@@ -516,7 +516,6 @@ export const members = [
   { name: "Sihyeong Lee", korean: "이시형", role: "Undergraduate Student" },
   { name: "Ian Kim", korean: "김이언", role: "Undergraduate Student" },
   { name: "Jihwan Jeon", korean: "전지환", role: "Undergraduate Student" },
-  { name: "Jinwoo Bae", korean: "배진우", role: "Undergraduate Student" },
 ];
 
 export const newsItems = [
