@@ -519,7 +519,8 @@ export const members = [
 ];
 
 export const newsItems = [
-  { date: "2026.10", category: "Award", text: "Early-Career Researcher Presentation and Early-Career Researcher Award at the 2026 Fall Conference of the KSME Daegu–Gyeongbuk Branch.", korean: "2026 대한기계학회 대경지회 추계학술대회 신진연구자 발표 및 신진연구자상 수상" },
+  { date: "2026.11", category: "Event", text: "Presentation in the Promising Scientists Session at the 2026 KSME Annual Conference.", korean: "2026 대한기계학회 학술대회 유망과학자 세션 발표" },
+  { date: "2026.10", category: "Award", text: "Early-Career Researcher Presentation and Young Researcher Award at the 2026 Fall Conference of the KSME Daegu–Gyeongbuk Branch.", korean: "2026 대한기계학회 대경지회 추계학술대회 신진연구자 발표 및 신진연구자상 수상" },
   { date: "2026.09", category: "Member", text: "Junghyun Seo joined RoMA Lab as a Ph.D. student (part-time). Welcome!", korean: "경북IT융합산업기술원 선임연구원 서중현 님이 박사과정(파트타임)으로 합류했습니다. 환영합니다!" },
   { date: "2026.09", category: "Event", text: "Presentation at the 2026 Maritime Robotics (AMR) Technical Seminar hosted by Korean Register (KR).", korean: "한국선급 주최 2026 조선해양 로봇(AMR) 기술 세미나 발표" },
   { date: "2026.09", category: "Member", text: "Sungguk Yu joined RoMA Lab as a researcher. Welcome!", korean: "유성국 학생이 연구원으로 합류했습니다. 환영합니다!" },
